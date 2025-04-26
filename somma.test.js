@@ -23,3 +23,8 @@ test('sub(3, 5) should return -2', () => {
 test('sub(0, 0) should return 0', () => {
   expect(sub(0, 0)).toBe(0);
 });
+
+test('sub(5, 5) should return 0', () => {
+  expect(sub(5, 5)).toBe(0);
+}
+);
