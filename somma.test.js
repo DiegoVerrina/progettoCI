@@ -28,3 +28,6 @@ test('sub(5, 5) should return 0', () => {
   expect(sub(5, 5)).toBe(0);
 }
 );
+test('sub(5, -5) should return 10', () => {
+  expect(sub(5, -5)).toBe(10);
+});
